@@ -1,0 +1,74 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+}
+
+
+nav {
+	background: teal;
+	height: 60px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	text-align: right;
+}
+
+
+
+.sitenav ul {
+	position: absolute;
+	right: 50px;
+	top: 5px;
+	font-size: 15px;
+	background-color: white;
+}
+
+.sitenav li {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 11px;
+	letter-spacing: 5px;
+}
+
+.sitenav li > a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.w3-btn {
+	position: relative;
+	height: 50px;
+	width: 250px;
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 15px;
+	top: 200px;
+	cursor: help;
+}
+.w3-btn2 {
+	position: relative;
+	height: 50px;
+	width: 250px;
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 15px;
+	left: 60px;
+	top: 200px;
+	cursor: pointer;
+}
+.w3-btn3 {
+	position: relative;
+	height: 50px;
+	width: 250px;
+	background-color: black;
+	border:none;
+	color: white;
+	font-size: 15px;
+	left: 100px;
+	top: 200px;
+	cursor: progress;
+}
